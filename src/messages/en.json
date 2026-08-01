@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "siteName": "Green Hill Facilities",
+    "defaultTitle": "Green Hill Facilities Pvt Ltd | Security, Housekeeping & Facility Management",
+    "defaultDescription": "Trusted security guard, housekeeping and facility management services across Delhi NCR since 2017. PSARA registered, 500+ trained personnel, 24x7 response ready."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "callNow": "Call Now"
+  },
+  "common": {
+    "readMore": "Read More",
+    "viewAllServices": "View All Services",
+    "viewGallery": "View Gallery",
+    "getInTouch": "Get in Touch",
+    "emailUs": "Email Us",
+    "callUs": "Call Us",
+    "yearsShort": "Yrs",
+    "sectorsServed": "Sectors Served",
+    "citiesCovered": "Cities Covered"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Delhi NCR's Trusted Facility Partner Since 2017",
+      "title": "Protecting What Matters Most",
+      "subtitle": "People, Property & Reputation",
+      "description": "PSARA-registered security, housekeeping and facility management services trusted by corporates, hotels, hospitals and residential societies across Delhi NCR.",
+      "ctaPrimary": "Call for a Free Security Audit",
+      "ctaSecondary": "Explore Our Services"
+    },
+    "stats": {
+      "sectionTitle": "Why Delhi NCR Trusts Green Hill",
+      "years": "Years in Service",
+      "personnel": "Trained Personnel",
+      "clientGroups": "Client Groups",
+      "response": "Response Ready",
+      "sectors": "Sectors Served",
+      "cities": "Cities Covered"
+    },
+    "whatWeDo": {
+      "sectionTitle": "What We Do",
+      "sectionSubtitle": "Complete protection and facility support, tailored to your site",
+      "security": {
+        "title": "Security Guard Services",
+        "description": "Trained, uniformed guards for corporate offices, industrial sites, residential societies, hotels, hospitals and educational institutions."
+      },
+      "specialist": {
+        "title": "Specialist Security",
+        "description": "QRT response teams, night surveillance, event security, bouncer services and VIP/PSO deployment for high-risk or high-profile needs."
+      },
+      "housekeeping": {
+        "title": "Housekeeping & Facility Management",
+        "description": "Front desk staffing, parking and valet management, and technical maintenance to keep your premises running smoothly."
+      }
+    },
+    "whyChooseUs": {
+      "sectionTitle": "Why Choose Green Hill",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To deliver dependable, professionally trained manpower that protects people, property and reputation, every shift, every site, every time."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be Delhi NCR's most trusted name in security and facility management, known for discipline, accountability and rapid response."
+      }
+    },
+    "clients": {
+      "sectionTitle": "Trusted By Leading Organisations"
+    },
+    "testimonials": {
+      "sectionTitle": "What Our Clients Say"
+    },
+    "compliance": {
+      "sectionTitle": "Fully Compliant, Fully Insured"
+    },
+    "ctaBand": {
+      "title": "Ready to Secure Your Premises?",
+      "description": "Speak to our team today and request a free, no-obligation security audit of your site.",
+      "cta": "Call Now"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Green Hill Facilities",
+      "description": "9+ years of protecting people, property and reputation across Delhi NCR."
+    },
+    "story": {
+      "sectionTitle": "Our Story",
+      "description": "Founded in 2017, Green Hill Facilities Pvt Ltd has grown into a trusted security, manpower and facility management partner for corporates, hospitality groups, healthcare facilities and residential communities across Delhi NCR."
+    },
+    "missionVision": {
+      "sectionTitle": "Mission & Vision"
+    },
+    "serviceAreas": {
+      "sectionTitle": "Where We Operate",
+      "description": "Proudly serving Ghaziabad, Noida, Greater Noida, Delhi and Faridabad."
+    },
+    "compliance": {
+      "sectionTitle": "Licensed & Compliant",
+      "description": "Green Hill operates under full regulatory compliance, giving clients complete peace of mind.",
+      "items": {
+        "psara": "PSARA Registered",
+        "gst": "GST Registered",
+        "epfo": "EPFO / PF Compliant",
+        "esic": "ESIC Registered",
+        "labour": "Labour & Shops Licensed",
+        "insurance": "Insurance Covered"
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "description": "Comprehensive security, specialist protection and facility management solutions."
+    },
+    "categories": {
+      "security": {
+        "title": "Security Guard Services",
+        "description": "Trained, disciplined and uniformed guards deployed across every type of premises.",
+        "items": {
+          "corporate": "Corporate",
+          "industrial": "Industrial",
+          "residential": "Residential",
+          "hotel": "Hotel",
+          "hospital": "Hospital",
+          "school": "School & College"
+        }
+      },
+      "specialist": {
+        "title": "Specialist Security",
+        "description": "Advanced protection for high-risk sites, events and high-profile individuals.",
+        "items": {
+          "qrt": "QRT (Quick Response Team)",
+          "night": "Night Surveillance",
+          "event": "Event Security",
+          "bouncer": "Bouncer Services",
+          "vip": "VIP / PSO Services"
+        }
+      },
+      "housekeeping": {
+        "title": "Housekeeping & Facility Management",
+        "description": "End-to-end facility support that keeps your premises clean, staffed and running.",
+        "items": {
+          "frontDesk": "Front Desk",
+          "parking": "Parking / Valet Management",
+          "technical": "Technical Maintenance"
+        }
+      }
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Gallery",
+      "description": "A glimpse into our deployments, training and events."
+    },
+    "categories": {
+      "deployments": "Deployments",
+      "training": "Training",
+      "events": "Events",
+      "clientSites": "Client Sites"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "description": "Speak to our team for a free security audit of your premises."
+    },
+    "callNow": "Call Now",
+    "emailUs": "Email Us",
+    "visitUs": "Visit Us",
+    "businessHours": "Available 24x7",
+    "addressLabel": "Registered Office"
+  },
+  "footer": {
+    "tagline": "Protecting What Matters Most – People, Property & Reputation",
+    "quickLinks": "Quick Links",
+    "getInTouch": "Get in Touch",
+    "followUs": "Follow Us",
+    "rightsReserved": "All rights reserved."
+  }
+}

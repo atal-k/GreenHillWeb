@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette — deep forest green (trust/identity) + warm amber (CTA/premium) */
+  --color-brand-950: #0a2e17;
+  --color-brand-900: #14532d;
+  --color-brand-800: #1a6b39;
+  --color-brand-700: #1f7a3d;
+  --color-brand-600: #278f49;
+  --color-brand-100: #e3efe6;
+  --color-brand-50: #eef3ec;
+
+  --color-accent-600: #b8860b;
+  --color-accent-500: #d4a017;
+  --color-accent-400: #e0b13a;
+  --color-accent-100: #faf1d9;
+
+  --color-ink-900: #1f2937;
+  --color-ink-700: #3f4a58;
+  --color-ink-500: #64748b;
+
+  --color-surface: #faf9f6;
+  --color-surface-alt: #eef3ec;
+  --color-surface-white: #ffffff;
+
+  /* Fonts — resolved to English pairing by default, remapped for Hindi via [data-lang="hi"] */
+  --font-heading: var(--font-heading-en);
+  --font-sans: var(--font-body-en);
+}
+
+:root {
+  --font-heading: var(--font-heading-en);
+  --font-sans: var(--font-body-en);
+}
+
+[data-lang="hi"] {
+  --font-heading: var(--font-devanagari);
+  --font-sans: var(--font-devanagari);
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading), var(--font-sans), system-ui, sans-serif;
+}

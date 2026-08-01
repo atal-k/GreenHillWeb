@@ -21,7 +21,8 @@
     "callUs": "Call Us",
     "yearsShort": "Yrs",
     "sectorsServed": "Sectors Served",
-    "citiesCovered": "Cities Covered"
+    "citiesCovered": "Cities Covered",
+    "learnMoreAboutUs": "Learn more about us"
   },
   "home": {
     "hero": {
@@ -44,6 +45,7 @@
     "whatWeDo": {
       "sectionTitle": "What We Do",
       "sectionSubtitle": "Complete protection and facility support, tailored to your site",
+      "cta": "Explore",
       "security": {
         "title": "Security Guard Services",
         "description": "Trained, uniformed guards for corporate offices, industrial sites, residential societies, hotels, hospitals and educational institutions."
@@ -59,27 +61,50 @@
     },
     "whyChooseUs": {
       "sectionTitle": "Why Choose Green Hill",
-      "mission": {
-        "title": "Our Mission",
-        "description": "To deliver dependable, professionally trained manpower that protects people, property and reputation, every shift, every site, every time."
+      "sectionSubtitle": "More than guards at a gate — a managed security partnership.",
+      "chips": {
+        "verifiedTrained": "Verified & Trained Personnel",
+        "independentAudits": "Independent Quality Audits",
+        "opsDesk": "24×7 Live Operations Desk",
+        "statutoryCompliance": "Full Statutory Compliance"
       },
-      "vision": {
-        "title": "Our Vision",
-        "description": "To be Delhi NCR's most trusted name in security and facility management, known for discipline, accountability and rapid response."
-      }
+      "cta": "Learn more about us"
     },
     "clients": {
       "sectionTitle": "Trusted By Leading Organisations"
     },
     "testimonials": {
-      "sectionTitle": "What Our Clients Say"
+      "sectionTitle": "What Our Clients Say",
+      "sectionSubtitle": "In their own words.",
+      "items": {
+        "windsorParadise": {
+          "quote": "Green Hill's guards are punctual, disciplined and genuinely engaged with our residents. The dedicated liaison officer has made RWA coordination effortless.",
+          "role": "Facility Committee",
+          "sector": "Premium Residential"
+        },
+        "guptaHotelsGroup": {
+          "quote": "What stood out was the independent audit process — someone from Green Hill's quality team visits our property without notice and reports directly to us. That accountability is rare.",
+          "role": "Operations Manager",
+          "sector": "Hospitality"
+        },
+        "chronicleGroup": {
+          "quote": "We consolidated our housekeeping and security manpower under Green Hill and removed an entire layer of compliance risk from our books. The transition was seamless.",
+          "role": "Administration Head",
+          "sector": "Corporate & Commercial"
+        },
+        "lotusShrishtiRwa": {
+          "quote": "Their QRT responded to a night-time disturbance at our site within minutes of the alert. That kind of responsiveness is exactly why we've stayed with them for years.",
+          "role": "Society Secretary",
+          "sector": "Residential Community"
+        }
+      }
     },
     "compliance": {
       "sectionTitle": "Fully Compliant, Fully Insured"
     },
     "ctaBand": {
-      "title": "Ready to Secure Your Premises?",
-      "description": "Speak to our team today and request a free, no-obligation security audit of your site.",
+      "title": "Ready for a Security Partner You Can Actually Rely On?",
+      "description": "Call now for a free site survey and a tailored deployment proposal — our operations team responds within one business day.",
       "cta": "Call Now"
     }
   },
@@ -90,10 +115,118 @@
     },
     "story": {
       "sectionTitle": "Our Story",
-      "description": "Founded in 2017, Green Hill Facilities Pvt Ltd has grown into a trusted security, manpower and facility management partner for corporates, hospitality groups, healthcare facilities and residential communities across Delhi NCR."
+      "description": "Green Hill Facilities was founded in 2017 on a simple idea: security in Delhi NCR was being sold as uniforms and headcount, not accountability. We built an in-house, salaried workforce instead — backed by structured operations, independent audits and full statutory compliance. What began as a single site has grown into a team of 500+ trained personnel across 10+ client groups, without ever compromising on that original discipline.",
+      "highlights": {
+        "incorporated": {
+          "title": "Incorporated",
+          "description": "Registered under the Companies Act, 2013 — built for long-term institutional partnerships."
+        },
+        "regionalFocus": {
+          "title": "Regional Focus",
+          "description": "Deep, centralised coverage across Ghaziabad, Noida, Greater Noida, Delhi and Faridabad."
+        },
+        "inHouseStaff": {
+          "title": "In-House Staff",
+          "description": "No sub-contracted manpower — every guard is on our own payroll, trained under our own protocols."
+        }
+      }
     },
     "missionVision": {
-      "sectionTitle": "Mission & Vision"
+      "sectionTitle": "Mission & Vision",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To deliver prompt, reliable and quality security services through trained personnel and smart operations — ensuring client satisfaction and continuous improvement."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be the most trusted security and facility services provider in Delhi NCR — recognised for discipline, responsiveness and peace of mind."
+      }
+    },
+    "coreValues": {
+      "sectionTitle": "Core Values",
+      "items": {
+        "integrity": {
+          "title": "Integrity",
+          "description": "Transparent with clients and personnel alike — no hidden costs, no shortcuts on compliance."
+        },
+        "discipline": {
+          "title": "Discipline",
+          "description": "Structured shifts, documented rotations and strict attendance protocols underpin every deployment."
+        },
+        "accountability": {
+          "title": "Accountability",
+          "description": "Independent audits and a named operations contact mean every incident has an owner."
+        },
+        "responsiveness": {
+          "title": "Responsiveness",
+          "description": "A live 24×7 operations desk means escalations are handled by a person, never a voicemail."
+        },
+        "compliance": {
+          "title": "Compliance",
+          "description": "Full PSARA, PF, ESI and labour-law adherence — removing legal exposure from your side."
+        },
+        "partnership": {
+          "title": "Partnership",
+          "description": "Every contract is treated as a long-term relationship, not a one-time placement."
+        }
+      }
+    },
+    "whyChooseUs": {
+      "sectionTitle": "Why Choose Green Hill",
+      "sectionSubtitle": "More than guards at a gate — a managed security partnership.",
+      "items": {
+        "verifiedTrained": {
+          "title": "Verified & Trained Personnel",
+          "description": "Every guard undergoes police verification, address checks and structured training before deployment."
+        },
+        "independentAudits": {
+          "title": "Independent Quality Audits",
+          "description": "Unannounced site visits assess alertness and duty discipline, with reports filed directly to operations."
+        },
+        "opsDesk": {
+          "title": "24×7 Live Operations Desk",
+          "description": "A live operations manager for emergency deployments and escalations — always a person, never a voicemail."
+        },
+        "statutoryCompliance": {
+          "title": "Full Statutory Compliance",
+          "description": "PSARA compliant, licences current, PF & ESI on payroll for every deployed employee."
+        }
+      }
+    },
+    "clientBenefits": {
+      "sectionTitle": "Client Benefits",
+      "sectionSubtitle": "What you gain by consolidating security and facility operations with one partner.",
+      "items": {
+        "zeroLegalLiability": {
+          "title": "Zero Legal Liability",
+          "description": "Every guard is on our payroll — PF, ESI and PSARA compliance handled entirely by us."
+        },
+        "singlePointContact": {
+          "title": "Single Point of Contact",
+          "description": "One operations contact across guarding, housekeeping and facility management."
+        },
+        "predictableCosts": {
+          "title": "Predictable Costs",
+          "description": "Transparent, consolidated billing with no hidden statutory or compliance surprises."
+        }
+      }
+    },
+    "sectors": {
+      "sectionTitle": "Sectors We Serve",
+      "sectionSubtitle": "Trained to the specific protocols each sector demands.",
+      "items": {
+        "corporateIt": "Corporate Offices & IT Parks",
+        "realEstate": "Real Estate & Construction",
+        "hospitality": "Hospitality — Hotels & Resorts",
+        "healthcare": "Healthcare — Hospitals & Clinics",
+        "education": "Education — Schools & Colleges",
+        "residential": "Residential Societies & RWAs",
+        "retail": "Retail & Shopping Malls",
+        "banking": "Banking & Financial Institutions",
+        "industrial": "Industrial & Manufacturing",
+        "warehousing": "Warehousing & Logistics",
+        "events": "Events & Entertainment"
+      }
     },
     "serviceAreas": {
       "sectionTitle": "Where We Operate",
@@ -110,6 +243,48 @@
         "labour": "Labour & Shops Licensed",
         "insurance": "Insurance Covered"
       }
+    },
+    "complianceDetail": {
+      "sectionTitle": "Compliance & Licenses",
+      "sectionSubtitle": "Full statutory adherence — removing legal exposure from your side.",
+      "items": {
+        "psara": {
+          "title": "PSARA Registered",
+          "description": "Licensed under the Private Security Agencies (Regulation) Act, with all licences current."
+        },
+        "companiesAct": {
+          "title": "Companies Act, 2013",
+          "description": "Incorporated entity registered under the Ministry of Corporate Affairs."
+        },
+        "epfo": {
+          "title": "EPFO / Provident Fund",
+          "description": "All eligible personnel enrolled with statutory PF contributions deposited on schedule."
+        },
+        "esic": {
+          "title": "ESIC Compliance",
+          "description": "Employee State Insurance coverage maintained for all eligible deployed staff."
+        },
+        "gst": {
+          "title": "GST Registered",
+          "description": "Fully GST-compliant billing and invoicing for all client engagements."
+        },
+        "labourShops": {
+          "title": "Labour & Shops Licensing",
+          "description": "Valid Shops & Establishment and labour licences maintained across operating jurisdictions."
+        },
+        "policeVerified": {
+          "title": "Police-Verified Workforce",
+          "description": "100% of deployed personnel carry verified police clearance on file."
+        },
+        "insurance": {
+          "title": "Insurance Coverage",
+          "description": "Workmen compensation and liability coverage maintained for all deployed personnel."
+        },
+        "zeroClientLiability": {
+          "title": "Zero Client Liability",
+          "description": "Because every guard is on our payroll, clients carry no direct labour-law or compliance risk."
+        }
+      }
     }
   },
   "services": {
@@ -120,34 +295,76 @@
     "categories": {
       "security": {
         "title": "Security Guard Services",
-        "description": "Trained, disciplined and uniformed guards deployed across every type of premises.",
+        "description": "Trained, background-verified guards deployed across every sector we serve.",
         "items": {
-          "corporate": "Corporate",
-          "industrial": "Industrial",
-          "residential": "Residential",
-          "hotel": "Hotel",
-          "hospital": "Hospital",
-          "school": "School & College"
+          "corporate": {
+            "title": "Corporate Security",
+            "description": "Visitor screening, CCTV co-monitoring and parking management for offices and IT parks."
+          },
+          "industrial": {
+            "title": "Industrial Security",
+            "description": "Material movement monitoring, anti-pilferage measures and site-specific guard briefings."
+          },
+          "residential": {
+            "title": "Residential Security",
+            "description": "Gate management, vehicle logging, intercom support and night patrolling with a dedicated liaison officer."
+          },
+          "hotel": {
+            "title": "Hotel Security",
+            "description": "Discreet lobby presence, baggage checks, VIP arrival coordination and 24×7 perimeter control."
+          },
+          "hospital": {
+            "title": "Hospital Security",
+            "description": "Ward access control, OPD crowd management and coordinated emergency response."
+          },
+          "school": {
+            "title": "School & College Security",
+            "description": "Campus access control, visitor verification and student pick-up/drop protocols."
+          }
         }
       },
       "specialist": {
-        "title": "Specialist Security",
-        "description": "Advanced protection for high-risk sites, events and high-profile individuals.",
+        "title": "Specialist Security Services",
+        "description": "Purpose-built teams for events, high-risk protection and rapid response.",
         "items": {
-          "qrt": "QRT (Quick Response Team)",
-          "night": "Night Surveillance",
-          "event": "Event Security",
-          "bouncer": "Bouncer Services",
-          "vip": "VIP / PSO Services"
+          "qrt": {
+            "title": "Quick Response Team (QRT)",
+            "description": "Vehicle-mounted teams deployable 24×7 across NCR within minutes of an alert."
+          },
+          "night": {
+            "title": "Night Surveillance",
+            "description": "Independent after-hours visits verifying guard alertness, duty posts and logs."
+          },
+          "event": {
+            "title": "Event Security",
+            "description": "Crowd management and perimeter security for events of any scale, preceded by a site survey."
+          },
+          "bouncer": {
+            "title": "Bouncer Services",
+            "description": "Trained bouncers for venues and events — access control and disciplined crowd handling."
+          },
+          "vip": {
+            "title": "VIP / PSO Security",
+            "description": "Selected PSOs trained in close protection and threat assessment for executives and HNIs."
+          }
         }
       },
       "housekeeping": {
         "title": "Housekeeping & Facility Management",
-        "description": "End-to-end facility support that keeps your premises clean, staffed and running.",
+        "description": "Fully compliant manpower for facility operations beyond security.",
         "items": {
-          "frontDesk": "Front Desk",
-          "parking": "Parking / Valet Management",
-          "technical": "Technical Maintenance"
+          "frontDesk": {
+            "title": "Front Desk & Concierge",
+            "description": "Trained hosts managing visitor flow, courier handling and building communications."
+          },
+          "parking": {
+            "title": "Parking & Valet",
+            "description": "Organised vehicle management and access-lane discipline at peak hours."
+          },
+          "technical": {
+            "title": "Technical & Maintenance",
+            "description": "Basic electrical, plumbing and equipment upkeep alongside housekeeping staff."
+          }
         }
       }
     }
@@ -173,7 +390,11 @@
     "emailUs": "Email Us",
     "visitUs": "Visit Us",
     "businessHours": "Available 24x7",
-    "addressLabel": "Registered Office"
+    "addressLabel": "Registered Office",
+    "faq": {
+      "sectionTitle": "Frequently Asked Questions",
+      "sectionSubtitle": "Straight answers to the questions we hear most before a client signs on."
+    }
   },
   "footer": {
     "tagline": "Protecting What Matters Most – People, Property & Reputation",

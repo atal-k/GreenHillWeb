@@ -50,3 +50,11 @@ h3,
 h4 {
   font-family: var(--font-heading), var(--font-sans), system-ui, sans-serif;
 }
+
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}

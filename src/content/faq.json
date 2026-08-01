@@ -1,0 +1,112 @@
+[
+  {
+    "id": "coverage",
+    "question": {
+      "en": "Which areas do you cover?",
+      "hi": "आप किन क्षेत्रों में सेवाएं प्रदान करते हैं?"
+    },
+    "answer": {
+      "en": "We operate actively across Ghaziabad, Noida, Greater Noida, Delhi and Faridabad, with centralised account management across all locations.",
+      "hi": "हम गाज़ियाबाद, नोएडा, ग्रेटर नोएडा, दिल्ली और फरीदाबाद में सक्रिय रूप से सेवाएं प्रदान करते हैं, सभी स्थानों पर केंद्रीकृत अकाउंट मैनेजमेंट के साथ।"
+    }
+  },
+  {
+    "id": "verified",
+    "question": {
+      "en": "Are your guards licensed and verified?",
+      "hi": "क्या आपके गार्ड लाइसेंस प्राप्त और सत्यापित हैं?"
+    },
+    "answer": {
+      "en": "Yes. Every guard undergoes police verification, address checks and structured training before deployment, and we are fully PSARA compliant.",
+      "hi": "जी हां। तैनाती से पहले हर गार्ड की पुलिस सत्यापन, पता जांच और संरचित प्रशिक्षण होता है, और हम पूर्णतः PSARA अनुपालित हैं।"
+    }
+  },
+  {
+    "id": "deploymentSpeed",
+    "question": {
+      "en": "How quickly can you deploy personnel?",
+      "hi": "आप कितनी जल्दी कर्मचारी तैनात कर सकते हैं?"
+    },
+    "answer": {
+      "en": "Standard deployments are arranged within 48–72 hours of approval; our QRT can reach an active site within minutes for emergency support.",
+      "hi": "सामान्य तैनाती स्वीकृति के 48–72 घंटों के भीतर की जाती है; आपातकालीन सहायता के लिए हमारी QRT मिनटों में सक्रिय साइट पर पहुंच सकती है।"
+    }
+  },
+  {
+    "id": "contractTerms",
+    "question": {
+      "en": "What is the minimum contract duration?",
+      "hi": "न्यूनतम अनुबंध अवधि क्या है?"
+    },
+    "answer": {
+      "en": "Contract terms are flexible and discussed during the proposal stage based on your site and service requirements — we don't lock clients into rigid long-term commitments upfront.",
+      "hi": "अनुबंध की शर्तें लचीली हैं और प्रस्ताव चरण के दौरान आपकी साइट व सेवा आवश्यकताओं के अनुसार तय की जाती हैं — हम क्लाइंट्स को शुरुआत में ही किसी कठोर दीर्घकालिक प्रतिबद्धता में नहीं बांधते।"
+    }
+  },
+  {
+    "id": "guardReplacement",
+    "question": {
+      "en": "Can guards be replaced if we're not satisfied?",
+      "hi": "अगर हम संतुष्ट न हों तो क्या गार्ड बदला जा सकता है?"
+    },
+    "answer": {
+      "en": "Yes. If a deployed guard doesn't meet your expectations, we arrange a replacement promptly — your dedicated operations contact handles this directly, with no lengthy escalation process.",
+      "hi": "जी हां। यदि तैनात गार्ड आपकी अपेक्षाओं पर खरा नहीं उतरता, तो हम तुरंत बदलाव की व्यवस्था करते हैं — आपका समर्पित ऑपरेशन्स संपर्क इसे सीधे संभालता है, कोई लंबी एस्केलेशन प्रक्रिया नहीं।"
+    }
+  },
+  {
+    "id": "billing",
+    "question": {
+      "en": "How does billing work?",
+      "hi": "बिलिंग कैसे काम करती है?"
+    },
+    "answer": {
+      "en": "Billing is transparent and consolidated — based on your site's guard/staff count and shift pattern, with no hidden statutory or compliance surcharges, discussed upfront during the proposal.",
+      "hi": "बिलिंग पारदर्शी और समेकित है — आपकी साइट के गार्ड/स्टाफ संख्या और शिफ्ट पैटर्न पर आधारित, बिना किसी छिपे सांविधिक या अनुपालन शुल्क के, जिसे प्रस्ताव चरण में पहले ही स्पष्ट किया जाता है।"
+    }
+  },
+  {
+    "id": "emergency",
+    "question": {
+      "en": "What happens during a security emergency?",
+      "hi": "सुरक्षा आपातकाल के दौरान क्या होता है?"
+    },
+    "answer": {
+      "en": "Our 24x7 live operations desk is notified immediately, and where required, our Quick Response Team is dispatched to site — escalations are handled by a person, never a voicemail.",
+      "hi": "हमारे 24x7 लाइव ऑपरेशन्स डेस्क को तुरंत सूचित किया जाता है, और आवश्यकता होने पर हमारी क्विक रिस्पॉन्स टीम साइट पर भेजी जाती है — एस्केलेशन एक व्यक्ति द्वारा संभाला जाता है, वॉइसमेल द्वारा नहीं।"
+    }
+  },
+  {
+    "id": "femalePersonnel",
+    "question": {
+      "en": "Do you provide female security or housekeeping staff?",
+      "hi": "क्या आप महिला सुरक्षा या हाउसकीपिंग स्टाफ उपलब्ध कराते हैं?"
+    },
+    "answer": {
+      "en": "Yes, we deploy female guards and housekeeping staff for sites that require them, including residential societies, hospitals and hospitality properties.",
+      "hi": "जी हां, हम उन साइट्स के लिए महिला गार्ड और हाउसकीपिंग स्टाफ तैनात करते हैं जिन्हें इसकी आवश्यकता होती है, जिसमें रेजिडेंशियल सोसाइटी, अस्पताल और हॉस्पिटैलिटी प्रॉपर्टी शामिल हैं।"
+    }
+  },
+  {
+    "id": "housekeepingOnly",
+    "question": {
+      "en": "Can we engage you for housekeeping only, without security?",
+      "hi": "क्या हम बिना सिक्योरिटी के केवल हाउसकीपिंग के लिए आपको नियुक्त कर सकते हैं?"
+    },
+    "answer": {
+      "en": "Yes. Housekeeping, facility management and manpower outsourcing can be engaged independently of our security services, based on your site's needs.",
+      "hi": "जी हां। हाउसकीपिंग, फैसिलिटी मैनेजमेंट और मैनपावर आउटसोर्सिंग को आपकी साइट की आवश्यकता के अनुसार, हमारी सिक्योरिटी सेवाओं से स्वतंत्र रूप से लिया जा सकता है।"
+    }
+  },
+  {
+    "id": "minimumDeployment",
+    "question": {
+      "en": "Is there a minimum number of guards or staff required?",
+      "hi": "क्या न्यूनतम गार्ड या स्टाफ संख्या आवश्यक है?"
+    },
+    "answer": {
+      "en": "We work with sites of every size, from a single reception desk to large multi-site deployments — our team designs a plan around your actual requirement, not a fixed minimum.",
+      "hi": "हम हर आकार की साइट के साथ काम करते हैं, एक सिंगल रिसेप्शन डेस्क से लेकर बड़े मल्टी-साइट डिप्लॉयमेंट तक — हमारी टीम आपकी वास्तविक आवश्यकता के अनुसार योजना बनाती है, किसी निश्चित न्यूनतम के अनुसार नहीं।"
+    }
+  }
+]

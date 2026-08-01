@@ -73,3 +73,23 @@ export interface GalleryImageDef {
   src: string;
   altKey: string;
 }
+
+export interface IconRef {
+  id: string;
+  icon: string;
+}
+
+export interface HighlightStat extends IconRef {
+  value: string;
+}
+
+export interface TestimonialRef {
+  id: string;
+  orgName: string;
+}
+
+export interface FaqItem {
+  id: string;
+  question: { en: string; hi: string };
+  answer: { en: string; hi: string };
+}

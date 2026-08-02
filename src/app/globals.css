@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  /* Brand palette — deep forest green (trust/identity) + warm amber (CTA/premium) */
-  --color-brand-950: #0a2e17;
-  --color-brand-900: #14532d;
-  --color-brand-800: #1a6b39;
-  --color-brand-700: #1f7a3d;
-  --color-brand-600: #278f49;
-  --color-brand-100: #e3efe6;
-  --color-brand-50: #eef3ec;
+  /* Brand palette — deep navy (trust/authority) + warm amber (CTA/premium) */
+  --color-brand-950: #071b33;
+  --color-brand-900: #0b2545;
+  --color-brand-800: #123a66;
+  --color-brand-700: #1b4e82;
+  --color-brand-600: #2563a0;
+  --color-brand-100: #e4ecf5;
+  --color-brand-50: #eef3f9;
 
   --color-accent-600: #b8860b;
   --color-accent-500: #d4a017;
@@ -20,7 +20,7 @@
   --color-ink-500: #64748b;
 
   --color-surface: #faf9f6;
-  --color-surface-alt: #eef3ec;
+  --color-surface-alt: #eef3f9;
   --color-surface-white: #ffffff;
 
   /* Fonts — resolved to English pairing by default, remapped for Hindi via [data-lang="hi"] */
@@ -36,6 +36,10 @@
 [data-lang="hi"] {
   --font-heading: var(--font-devanagari);
   --font-sans: var(--font-devanagari);
+}
+
+[data-lang="hi"] body {
+  line-height: 1.75;
 }
 
 body {

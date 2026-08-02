@@ -58,7 +58,7 @@ export async function ServiceCategorySection({
   return (
     <Section id={category.id} tone={tone} className="scroll-mt-20">
       <Container>
-        <div className="relative flex aspect-[21/9] w-full items-end overflow-hidden rounded-3xl p-6 md:p-10">
+        <div className="relative flex aspect-[4/3] w-full items-end overflow-hidden rounded-3xl p-6 md:aspect-[21/9] md:p-10">
           <Image
             src={category.image}
             alt=""

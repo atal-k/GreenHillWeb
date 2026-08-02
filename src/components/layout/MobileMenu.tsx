@@ -44,7 +44,7 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
           <motion.div
             role="dialog"
             aria-modal="true"
-            className="fixed inset-y-0 right-0 z-50 flex w-[85%] max-w-sm flex-col gap-6 bg-white px-6 py-6 shadow-2xl lg:hidden"
+            className="fixed inset-y-0 right-0 z-50 flex w-[85%] max-w-sm flex-col gap-6 overflow-y-auto bg-white px-6 py-6 shadow-2xl lg:hidden"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Green Hill Facilities icon">
-  <path d="M32 4 L54 12 V30 C54 46 44 56 32 60 C20 56 10 46 10 30 V12 Z" fill="#14532D"/>
+  <path d="M32 4 L54 12 V30 C54 46 44 56 32 60 C20 56 10 46 10 30 V12 Z" fill="#0B2545"/>
   <circle cx="40" cy="20" r="4" fill="#D4A017"/>
   <path d="M16 38 L26 22 L33 33 L40 20 L48 38 Z" fill="#FFFFFF" fill-opacity="0.95"/>
 </svg>

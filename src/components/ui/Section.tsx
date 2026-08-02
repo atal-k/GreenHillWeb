@@ -2,7 +2,7 @@ import type { ComponentPropsWithoutRef, ElementType } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
-const sectionVariants = cva("py-16 md:py-24", {
+const sectionVariants = cva("py-12 md:py-20", {
   variants: {
     tone: {
       surface: "bg-surface",

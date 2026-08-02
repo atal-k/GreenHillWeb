@@ -375,10 +375,36 @@
       "description": "A glimpse into our deployments, training and events."
     },
     "categories": {
-      "deployments": "Deployments",
-      "training": "Training",
-      "events": "Events",
-      "clientSites": "Client Sites"
+      "deployments": {
+        "label": "Deployments",
+        "blurb": "Our teams, on site and on duty, across Delhi NCR — every gate, every shift."
+      },
+      "training": {
+        "label": "Training",
+        "blurb": "Discipline starts before day one. Every guard is drilled, briefed and ready before their first shift."
+      },
+      "events": {
+        "label": "Events",
+        "blurb": "From weddings to corporate launches, our teams manage crowds and access with quiet precision."
+      },
+      "clientSites": {
+        "label": "Client Sites",
+        "blurb": "The residential societies, hotels and campuses that trust us with their front line, every day."
+      }
+    },
+    "images": {
+      "deployment-01": { "caption": "Gate check-in at a residential society entrance" },
+      "deployment-02": { "caption": "Front-desk access control at a corporate lobby" },
+      "deployment-03": { "caption": "Night patrol along a client site perimeter" },
+      "training-01": { "caption": "New recruits during induction and drill training" },
+      "training-02": { "caption": "Fire safety and first-aid certification in progress" },
+      "training-03": { "caption": "Site-specific briefing before first deployment" },
+      "event-01": { "caption": "Crowd management at a large public event" },
+      "event-02": { "caption": "Access control at a corporate event entrance" },
+      "event-03": { "caption": "A coordinated team standing by during an event" },
+      "client-site-01": { "caption": "A hotel lobby under Green Hill's watch" },
+      "client-site-02": { "caption": "A residential society gate managed by our team" },
+      "client-site-03": { "caption": "A corporate campus entrance point" }
     }
   },
   "contact": {

@@ -71,7 +71,6 @@ export interface GalleryImageDef {
   id: string;
   category: GalleryCategoryKey;
   src: string;
-  altKey: string;
 }
 
 export interface IconRef {

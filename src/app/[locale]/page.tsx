@@ -1,5 +1,6 @@
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { getServiceCoverImages } from "@/lib/serviceCovers";
 import { RevealOnScroll } from "@/components/motion/RevealOnScroll";
 import { Hero } from "@/components/home/Hero";
 import { StatsBar } from "@/components/home/StatsBar";
@@ -21,9 +22,11 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const heroImages = ["/images/hero/hero-home.webp", ...getServiceCoverImages()];
+
   return (
     <>
-      <Hero />
+      <Hero images={heroImages} />
       <StatsBar />
       <RevealOnScroll>
         <WhatWeDo />

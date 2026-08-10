@@ -1,28 +1,21 @@
 "use client";
 
-import Image from "next/image";
 import { ArrowRight, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { FadeIn } from "@/components/motion/FadeIn";
+import { HeroCarousel } from "./HeroCarousel";
 import { brand } from "@/content/brand";
 
-export function Hero() {
+export function Hero({ images }: { images: string[] }) {
   const t = useTranslations("home.hero");
 
   return (
     <section className="relative isolate overflow-hidden bg-brand-950">
-      <Image
-        src="/images/hero/hero-home.webp"
-        alt=""
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover"
-      />
+      <HeroCarousel images={images} />
       <div className="absolute inset-0 bg-gradient-to-r from-brand-950/90 via-brand-950/60 to-brand-900/30" />
-      <Container className="relative flex min-h-[85svh] flex-col justify-center gap-5 py-20 md:py-28">
+      <Container className="relative z-20 flex min-h-[85svh] flex-col justify-center gap-5 py-20 md:py-28">
         <FadeIn>
           <span className="inline-flex w-fit items-center rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-xs font-semibold tracking-wide text-accent-400 uppercase">
             {t("eyebrow")}

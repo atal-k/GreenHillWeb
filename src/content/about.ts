@@ -49,12 +49,12 @@ export const sectorsServed: IconRef[] = [
 ];
 
 export const complianceDetails: IconRef[] = [
-  { id: "psara", icon: "ShieldCheck" },
   { id: "companiesAct", icon: "FileText" },
-  { id: "epfo", icon: "Wallet" },
-  { id: "esic", icon: "HeartHandshake" },
   { id: "gst", icon: "Receipt" },
+  { id: "esic", icon: "HeartHandshake" },
+  { id: "epfo", icon: "Wallet" },
   { id: "labourShops", icon: "ScrollText" },
+  { id: "psara", icon: "ShieldCheck" },
   { id: "policeVerified", icon: "BadgeCheck" },
   { id: "insurance", icon: "Umbrella" },
   { id: "zeroClientLiability", icon: "Scale" },

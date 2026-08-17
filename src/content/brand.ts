@@ -1,8 +1,43 @@
-import type { Brand } from "@/types/content";
+import type { Brand, BranchAddress } from "@/types/content";
 
 const phoneDigits = "+919718741155";
-const addressFull =
-  "5/617, S-1, Sector-5 Vaishali, I.E. Sahibabad, Ghaziabad, UP – 201010";
+
+function branch(branch: Omit<BranchAddress, "full" | "mapUrl">): BranchAddress {
+  const full = `${branch.line1}, ${branch.city}, ${branch.state} – ${branch.pincode}`;
+  return {
+    ...branch,
+    full,
+    mapUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(full)}`,
+  };
+}
+
+const branches: BranchAddress[] = [
+  branch({
+    id: "delhi",
+    name: "Delhi Office",
+    line1: "WZ-510A, UGF, Flat No-101, Palam Village, Palam",
+    city: "New Delhi",
+    state: "Delhi",
+    pincode: "110045",
+    isPrimary: true,
+  }),
+  branch({
+    id: "ghaziabad",
+    name: "Ghaziabad Office",
+    line1: "5/617, S-1, Sector-5, Vaishali",
+    city: "Ghaziabad",
+    state: "Uttar Pradesh",
+    pincode: "201010",
+  }),
+  branch({
+    id: "noida",
+    name: "Noida Office",
+    line1: "B-113, Ground Floor, Sector-2",
+    city: "Noida",
+    state: "Uttar Pradesh",
+    pincode: "201301",
+  }),
+];
 
 export const brand: Brand = {
   legalName: "Green Hill Facilities Pvt Ltd",
@@ -19,14 +54,7 @@ export const brand: Brand = {
     display: "admin.greenhill@gmail.com",
     href: "mailto:admin.greenhill@gmail.com",
   },
-  address: {
-    line1: "5/617, S-1, Sector-5 Vaishali, I.E. Sahibabad",
-    city: "Ghaziabad",
-    state: "Uttar Pradesh",
-    pincode: "201010",
-    full: addressFull,
-    mapUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addressFull)}`,
-  },
+  branches,
   serviceAreas: ["Ghaziabad", "Noida", "Greater Noida", "Delhi", "Faridabad"],
   // TODO: no social profiles provided yet — populate once confirmed by client.
   social: {},

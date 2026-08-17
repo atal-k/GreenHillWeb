@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -23,19 +24,24 @@ const SOCIAL_ICONS = {
 export async function Footer() {
   const t = await getTranslations();
   const socialEntries = Object.entries(brand.social).filter(([, url]) => Boolean(url));
+  const primaryBranch = brand.branches.find((b) => b.isPrimary) ?? brand.branches[0];
 
   return (
     <footer className="bg-brand-900 text-white">
       <Container className="grid gap-12 py-16 md:grid-cols-4">
         <div className="md:col-span-1">
-          {/* eslint-disable-next-line @next/next/no-img-element -- vector logo: next/image adds no benefit and local SVGs need dangerouslyAllowSVG */}
-          <img
-            src="/images/logo/logo-dark.svg"
-            alt={`${brand.legalName} logo`}
-            width={176}
-            height={44}
-            className="h-10 w-auto"
-          />
+          <div className="flex items-center gap-2.5">
+            <Image
+              src="/images/logo/badge.png"
+              alt=""
+              width={100}
+              height={100}
+              className="h-10 w-10"
+            />
+            <span className="text-xl font-extrabold tracking-tight text-[#1C7A43]">
+              GREEN HILL
+            </span>
+          </div>
           <p className="mt-4 text-sm text-brand-100">{t("footer.tagline")}</p>
 
           {socialEntries.length > 0 && (
@@ -105,13 +111,13 @@ export async function Footer() {
             </li>
             <li>
               <a
-                href={brand.address.mapUrl}
+                href={primaryBranch.mapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-2 text-white/85 transition-colors hover:text-white"
               >
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0" />
-                {brand.address.full}
+                {primaryBranch.full}
               </a>
             </li>
           </ul>

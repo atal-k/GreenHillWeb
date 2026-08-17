@@ -29,7 +29,7 @@
       "eyebrow": "Delhi NCR's Trusted Facility Partner Since 2017",
       "title": "Protecting What Matters Most",
       "subtitle": "People, Property & Reputation",
-      "description": "PSARA-registered security, housekeeping and facility management services trusted by corporates, hotels, hospitals and residential societies across Delhi NCR.",
+      "description": "Registered security, housekeeping and facility management services trusted by corporates, hotels, hospitals and residential societies across Delhi NCR.",
       "ctaPrimary": "Call for a Free Security Audit",
       "ctaSecondary": "Explore Our Services"
     },
@@ -72,6 +72,22 @@
     },
     "clients": {
       "sectionTitle": "Trusted By Leading Organisations"
+    },
+    "queryForm": {
+      "eyebrow": "Get In Touch",
+      "title": "Have a Question? Send Us a Query",
+      "subtitle": "Fill in your details and our team will get back to you within one business day.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your name",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "Your phone number",
+      "queryLabel": "Your Query",
+      "queryPlaceholder": "Tell us what you need help with",
+      "submit": "Send Query",
+      "sending": "Sending...",
+      "validationError": "Please fill in all required fields.",
+      "successMessage": "Thanks! Your query has been sent — we'll be in touch soon.",
+      "errorMessage": "Something went wrong. Please try again or call us directly."
     },
     "testimonials": {
       "sectionTitle": "What Our Clients Say",
@@ -399,6 +415,7 @@
       "training-01": { "caption": "New recruits during induction and drill training" },
       "training-02": { "caption": "Fire safety and first-aid certification in progress" },
       "training-03": { "caption": "Site-specific briefing before first deployment" },
+      "training-04": { "caption": "Guards in formation during a training-ground drill" },
       "event-01": { "caption": "Crowd management at a large public event" },
       "event-02": { "caption": "Access control at a corporate event entrance" },
       "event-03": { "caption": "A coordinated team standing by during an event" },
@@ -417,6 +434,8 @@
     "visitUs": "Visit Us",
     "businessHours": "Available 24x7",
     "addressLabel": "Registered Office",
+    "ourOffices": "Our Offices",
+    "headOffice": "Head Office",
     "faq": {
       "sectionTitle": "Frequently Asked Questions",
       "sectionSubtitle": "Straight answers to the questions we hear most before a client signs on."

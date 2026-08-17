@@ -38,6 +38,11 @@ export const galleryImages: GalleryImageDef[] = [
     src: "/images/gallery/training/03.webp",
   },
   {
+    id: "training-04",
+    category: "training",
+    src: "/images/gallery/training/04.png",
+  },
+  {
     id: "event-01",
     category: "events",
     src: "/images/gallery/events/01.webp",

@@ -1,3 +1,15 @@
+export interface BranchAddress {
+  id: string;
+  name: string;
+  line1: string;
+  city: string;
+  state: string;
+  pincode: string;
+  full: string;
+  mapUrl: string;
+  isPrimary?: boolean;
+}
+
 export interface Brand {
   legalName: string;
   shortName: string;
@@ -13,14 +25,7 @@ export interface Brand {
     display: string;
     href: string;
   };
-  address: {
-    line1: string;
-    city: string;
-    state: string;
-    pincode: string;
-    full: string;
-    mapUrl: string;
-  };
+  branches: BranchAddress[];
   serviceAreas: string[];
   social: {
     facebook?: string;

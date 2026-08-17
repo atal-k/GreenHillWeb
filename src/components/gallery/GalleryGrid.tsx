@@ -42,26 +42,31 @@ export function GalleryGrid({ images }: { images: LightboxImage[] }) {
         </button>
 
         <div className="grid grid-cols-2 gap-4">
-          {rest.map((image, i) => (
-            <button
-              key={image.src}
-              type="button"
-              onClick={() => setIndex(i + 1)}
-              className="group relative aspect-square overflow-hidden rounded-2xl"
-            >
-              {image.exists ? (
-                <Image
-                  src={image.src}
-                  alt={image.caption}
-                  fill
-                  sizes="50vw"
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-              ) : (
-                <div className="h-full w-full bg-gradient-to-br from-brand-700 via-brand-800 to-accent-500" />
-              )}
-            </button>
-          ))}
+          {rest.map((image, i) => {
+            const isTrailingOdd = rest.length % 2 === 1 && i === rest.length - 1;
+            return (
+              <button
+                key={image.src}
+                type="button"
+                onClick={() => setIndex(i + 1)}
+                className={`group relative overflow-hidden rounded-2xl ${
+                  isTrailingOdd ? "col-span-2 aspect-[16/9]" : "aspect-square"
+                }`}
+              >
+                {image.exists ? (
+                  <Image
+                    src={image.src}
+                    alt={image.caption}
+                    fill
+                    sizes={isTrailingOdd ? "100vw" : "50vw"}
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                ) : (
+                  <div className="h-full w-full bg-gradient-to-br from-brand-700 via-brand-800 to-accent-500" />
+                )}
+              </button>
+            );
+          })}
         </div>
       </div>
 

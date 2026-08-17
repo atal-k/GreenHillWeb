@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Menu, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
@@ -19,15 +20,22 @@ export function Header() {
     <>
       <header className="sticky top-0 z-30 border-b border-ink-900/5 bg-surface-white/95 backdrop-blur supports-[backdrop-filter]:bg-surface-white/80">
         <Container className="flex h-16 items-center justify-between gap-4 md:h-20">
-          <Link href="/" className="flex shrink-0 items-center" aria-label={brand.shortName}>
-            {/* eslint-disable-next-line @next/next/no-img-element -- vector logo: next/image adds no benefit and local SVGs need dangerouslyAllowSVG */}
-            <img
-              src="/images/logo/logo-light.svg"
-              alt={`${brand.legalName} logo`}
-              width={176}
-              height={44}
-              className="h-9 w-auto md:h-11"
+          <Link
+            href="/"
+            className="flex shrink-0 items-center gap-2 md:gap-3"
+            aria-label={brand.shortName}
+          >
+            <Image
+              src="/images/logo/badge.png"
+              alt=""
+              width={100}
+              height={100}
+              priority
+              className="h-9 w-9 md:h-11 md:w-11"
             />
+            <span className="text-lg font-extrabold tracking-tight text-[#1C7A43] md:text-xl">
+              GREEN HILL
+            </span>
           </Link>
 
           <Navbar orientation="horizontal" className="hidden lg:flex" />

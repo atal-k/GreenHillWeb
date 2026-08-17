@@ -8,6 +8,7 @@ import { WhatWeDo } from "@/components/home/WhatWeDo";
 import { WhyChooseUsTeaser } from "@/components/home/WhyChooseUsTeaser";
 import { TestimonialsCarousel } from "@/components/home/TestimonialsCarousel";
 import { ClientsStrip } from "@/components/home/ClientsStrip";
+import { QueryForm } from "@/components/home/QueryForm";
 import { CTABand } from "@/components/home/CTABand";
 
 export function generateStaticParams() {
@@ -22,7 +23,11 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const heroImages = ["/images/hero/hero-home.webp", ...getServiceCoverImages()];
+  const heroImages = [
+    "/images/gallery/training/04.png",
+    "/images/hero/hero-home.webp",
+    ...getServiceCoverImages(),
+  ];
 
   return (
     <>
@@ -37,6 +42,9 @@ export default async function HomePage({
       <TestimonialsCarousel />
       <RevealOnScroll>
         <ClientsStrip />
+      </RevealOnScroll>
+      <RevealOnScroll>
+        <QueryForm />
       </RevealOnScroll>
       <CTABand />
     </>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { Send, CheckCircle2, AlertCircle } from "lucide-react";
+import { Send, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
@@ -73,7 +73,7 @@ export function QueryForm() {
           align="center"
         />
 
-        <Card variant="geometric" padding="lg" className="mx-auto mt-10 max-w-2xl">
+        <Card variant="geometric" padding="lg" className="mx-auto mt-10 max-w-2xl p-6 sm:p-8">
           <form onSubmit={handleSubmit} noValidate className="space-y-5">
             <div>
               <label htmlFor="qf-name" className="mb-1.5 block text-sm font-medium text-ink-900">
@@ -87,9 +87,10 @@ export function QueryForm() {
                 placeholder={t("namePlaceholder")}
                 className={cn(
                   inputBase,
-                  errors.name ? "border-red-500 focus:ring-red-500" : "border-ink-900/15",
+                  errors.name ? "border-red-600 focus:ring-red-600" : "border-ink-900/15",
                 )}
                 aria-invalid={errors.name}
+                aria-required="true"
               />
             </div>
 
@@ -106,9 +107,10 @@ export function QueryForm() {
                 placeholder={t("phonePlaceholder")}
                 className={cn(
                   inputBase,
-                  errors.phone ? "border-red-500 focus:ring-red-500" : "border-ink-900/15",
+                  errors.phone ? "border-red-600 focus:ring-red-600" : "border-ink-900/15",
                 )}
                 aria-invalid={errors.phone}
+                aria-required="true"
               />
             </div>
 
@@ -125,9 +127,10 @@ export function QueryForm() {
                 className={cn(
                   inputBase,
                   "resize-none",
-                  errors.query ? "border-red-500 focus:ring-red-500" : "border-ink-900/15",
+                  errors.query ? "border-red-600 focus:ring-red-600" : "border-ink-900/15",
                 )}
                 aria-invalid={errors.query}
+                aria-required="true"
               />
             </div>
 
@@ -158,7 +161,11 @@ export function QueryForm() {
               disabled={status === "submitting"}
               className="w-full sm:w-auto"
             >
-              <Send className="h-5 w-5" />
+              {status === "submitting" ? (
+                <Loader2 className="h-5 w-5 animate-spin" />
+              ) : (
+                <Send className="h-5 w-5" />
+              )}
               {status === "submitting" ? t("sending") : t("submit")}
             </Button>
           </form>

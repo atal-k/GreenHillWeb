@@ -1,7 +1,13 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { brand } from "@/content/brand";
 
-const TO_EMAIL = "admin.greenhill@gmail.com";
+const TO_EMAIL = brand.email.display;
+
+/** Strips CR/LF so user input can't inject extra headers into the email. */
+function sanitizeHeaderValue(value: string) {
+  return value.replace(/[\r\n]+/g, " ").trim();
+}
 
 interface ContactPayload {
   name?: unknown;
@@ -42,8 +48,8 @@ export async function POST(request: Request) {
     auth: { user: SMTP_USER, pass: SMTP_PASS },
   });
 
-  const cleanName = name.trim();
-  const cleanPhone = phone.trim();
+  const cleanName = sanitizeHeaderValue(name);
+  const cleanPhone = sanitizeHeaderValue(phone);
   const cleanQuery = query.trim();
   const submittedAt = new Date().toLocaleString("en-IN", {
     dateStyle: "medium",
